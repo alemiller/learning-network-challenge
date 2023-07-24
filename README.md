@@ -18,6 +18,7 @@ What is the probability that the ant is on one of the outermost squares after 1 
   
 **Extra Credit:** Apply your code to a beetle that moves 2 squares at a time.
 
+
 ## An idea to solve it
 Let P[t, (x,y)] be the probability that the ant will be at (x,y) at time t. We can form a recurrence relation as such:
 
@@ -26,6 +27,7 @@ Let P[t, (x,y)] be the probability that the ant will be at (x,y) at time t. We c
 
 Start with P[0, (3,3)]=1, P[0, (a,b)]=0 for all other points and build the recursion.
 
+
 ## How to Install and Run the Project
  1. Clone the project into a local folder
  2. Enter to the new folder crated in the previous step
@@ -33,8 +35,10 @@ Start with P[0, (3,3)]=1, P[0, (a,b)]=0 for all other points and build the recur
  4. A menue will show up
  5. Choose your option and press `Enter`
 
+
 ## Built with
 PHP 7.0.33
+
 
 ## Author
 
